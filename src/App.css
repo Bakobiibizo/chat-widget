@@ -1,0 +1,72 @@
+/* Header for the Conversation Box */
+.rcw-conversation-container > .rcw-header {
+  background-color: var(--header-color);
+  display: none;
+}
+
+.rcw-response{
+  background-color: var(--system-message-color);
+}
+
+/* System Messages */
+.rcw-response > .rcw-message-text{
+  background-color: var(--system-message-color);
+  color: var(--system-message-text-color);
+  padding: 2px;
+}
+
+.rcw-client{
+  background-color: var(--user-message-color);
+}
+
+/* User Messages */
+.rcw-client > .rcw-message-text{
+  background-color: var(--user-message-color);
+  color: var(--user-message-text-color);
+}
+
+/* Widget Launcher Icon */
+.rcw-launcher {
+  background-color: var(--header-color);
+}
+
+/* Hides the Broken Emoji Selector */
+.rcw-sender > .rcw-picker-btn {
+  display: none;
+}
+
+/* Extends the width of the text input to cover the gap from the emoji selector 
+.rcw-new-message {
+  width: calc(100% - 35px);
+}
+
+*/
+.rcw-messages-container {
+  background-color: var(--background-color);
+  border-radius: 16px 16px 0 0;
+  overflow-y: auto;
+}
+
+.rcw-sender{
+  background-color: var(--footer-background-color);
+}
+
+.rcw-send{
+  background-color: #ffffff;
+
+  height: 40px;
+  margin-left: -30px;
+  padding: 0 16px;
+
+  border-radius: 24px;
+
+  color: white;
+}
+
+.rcw-send-icon {
+  display: none;
+}
+
+.rcw-new-message {
+  border-radius: 24px;
+}
